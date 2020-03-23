@@ -1,0 +1,70 @@
+.header-site {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(../images/bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffff;
+    
+}
+
+.content-site {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.yasuo {
+    padding-bottom: 10px;
+}
+
+.content-site h1 {
+    padding-bottom: 20px;
+}
+
+.ns {
+    padding-bottom: 15px;
+}
+
+
+.img-site {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(../images/programador-bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffff;
+}
+
+
+section.img-site  h2 {
+    color: rgba(255,255,255, 0.842);
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+section.img-site p {
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 19px;
+}
+
+.footer-site { 
+    background-color: #333333;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.anime {
+	opacity: 0;
+	transform: translate3d(-100px, 0, 0);
+	transition: .5s;
+}
+
+.anime-start {
+	opacity: 1;
+	transform: translate3d(0, 0, 0);
+}
